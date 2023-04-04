@@ -117,3 +117,18 @@ function getProductFromStorage(){
     return localStorage.getItem('products') ? JSON.parse(localStorage.getItem('products')) : [];
     // returns empty array if there isn't any product info
 }
+// load carts product
+function loadCart(){
+    let products = getProductFromStorage();
+    if(products.length < 1){
+        cartItemID = 1; // if there is no any product in the local storage
+    } else {
+        cartItemID = products[products.length - 1].id;
+        cartItemID++;
+        // else get the id of the last product and increase it by 1
+    }
+    products.forEach(product => addToCartList(product));
+
+    // calculate and update UI of cart info 
+    updateCartInfo();
+}
