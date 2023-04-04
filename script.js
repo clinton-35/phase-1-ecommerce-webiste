@@ -104,3 +104,16 @@ function addToCartList(product){
     `;
     cartList.appendChild(cartItem);
 }
+// save the product in the local storage
+function saveProductInStorage(item){
+    let products = getProductFromStorage();
+    products.push(item);
+    localStorage.setItem('products', JSON.stringify(products));
+    updateCartInfo();
+}
+
+// get all the products info if there is any in the local storage
+function getProductFromStorage(){
+    return localStorage.getItem('products') ? JSON.parse(localStorage.getItem('products')) : [];
+    // returns empty array if there isn't any product info
+}
