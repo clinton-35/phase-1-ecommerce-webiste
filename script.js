@@ -73,3 +73,16 @@ function purchaseProduct(e){
         getProductInfo(product);
     }
 }
+// get product info after add to cart button click
+function getProductInfo(product){
+    let productInfo = {
+        id: cartItemID,
+        imgSrc: product.querySelector('.product-img img').src,
+        name: product.querySelector('.product-name').textContent,
+        category: product.querySelector('.product-category').textContent,
+        price: product.querySelector('.product-price').textContent
+    }
+    cartItemID++;
+    addToCartList(productInfo);
+    saveProductInStorage(productInfo);
+}
