@@ -1,118 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>STOP & SHOP</title>
     <!--fonts link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class = "container">
-          <!-- navbar -->
-          <nav class = "navbar">
-            <a href = "index.html" class = "navbar-brand">STOP & SHOP</a>
-            <button type = "button" class = "navbar-toggler">
-              <i class = "fas fa-bars"></i>
+      <div class="container">
+        <!-- navbar -->
+        <nav class="navbar">
+          <a href="index.html" class="navbar-brand">STOP & SHOP</a>
+          <button type="button" class="navbar-toggler">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="navbar-collapse">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#Gallery">Gallery</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </div>
+
+          <div class="cart">
+            <button type="button" id="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span id="cart-count-info"></span>
             </button>
-            <div class = "navbar-collapse">
-              <ul>
-                <li><a href = "#home">Home</a></li>
-                <li><a href = "#Gallery">Gallery</a></li>
-                <li><a href = "#contact">contact</a></li>
-              </ul>
-            </div>
-  
-            <div class = "cart">
-              <button type = "button" id = "cart-btn">
-                <i class = "fas fa-shopping-cart"></i>
-                <span id = "cart-count-info"></span>
-              </button>
-              
-              <div class = "cart-container">
-                <div class = "cart-list">
-                  
-                </div>
-  
-                <div class = "cart-total">
-                  <h3>Total: $</h3>
-                  <span id = "cart-total-value"></span>
-                </div>
+
+            <div class="cart-container">
+              <div class="cart-list"></div>
+
+              <div class="cart-total">
+                <h3>Total: $</h3>
+                <span id="cart-total-value"></span>
               </div>
             </div>
-          </nav>
-          <!-- end of navbar -->
-          <!-- banner -->
-        <div class = "banner" id ="home">
-            <div class = "banner-content">
-              <h1>Exquisite Items  For You!</h1>
-              <p class = "text">Welcome to our stop & shop website! We are excited to offer you a unique shopping experience filled with a wide range of high-quality products that cater to your needs. Our mission is to provide you with an easy and hassle-free way to shop from the comfort of your home, and we are committed to making your experience with us as enjoyable as possible.
-
-                Our website features an extensive selection of products that range from fashion to home goods. You can browse through our collections and find items that suit your style and budget. With our user-friendly interface , you can shop with confidence and peace of mind.
-                
-                Thank you for choosing our  website, and we look forward to serving you. Happy shopping!</p>
-              
-            </div>
-  
-            <div class = "banner-img">
-              <img src = "images/banner-img.png" alt = "image">
-            </div>
           </div>
-          <!-- end of banner  -->
+        </nav>
+        <!-- end of navbar -->
+        <!-- banner -->
+        <div class="banner" id="home">
+          <div class="banner-content">
+            <h1>Exquisite Items For You!</h1>
+            <p class="text">
+              Welcome to our stop & shop website! We are excited to offer you a
+              unique shopping experience filled with a wide range of
+              high-quality products that cater to your needs. Our mission is to
+              provide you with an easy and hassle-free way to shop from the
+              comfort of your home, and we are committed to making your
+              experience with us as enjoyable as possible. Our website features
+              an extensive selection of products that range from fashion to home
+              goods. You can browse through our collections and find items that
+              suit your style and budget. With our user-friendly interface , you
+              can shop with confidence and peace of mind. Thank you for choosing
+              our website, and we look forward to serving you. Happy shopping!
+            </p>
+          </div>
+
+          <div class="banner-img">
+            <img src="images/banner-img.png" alt="image" />
+          </div>
         </div>
+        <!-- end of banner  -->
+      </div>
     </header>
     <!-- end of header -->
 
-
     <!-- products section  -->
-    <section class = "products" id="Gallery">
-        <div class = "container">
-          <h2>Our Products</h2>
-          <div class = "product-list">
-            
-          </div>
+    <section class="products" id="Gallery">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="product-list"></div>
+      </div>
+    </section>
+    <!-- end of products section -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-banner" id="contact">
+        <div class="container">
+          <p class="text">
+            Thank you for shopping with us! We appreciate your business and hope
+            you enjoyed your experience on our eCommerce website. If you have
+            any questions or feedback, please don't hesitate to contact our
+            customer service team. We hope to see you again soon!
+          </p>
+          <br />
+          <p>
+            To order goods or report an issue contact us using the below
+            information:
+          </p>
+          <p>Tel no:0791168230</p>
+          <p>Email :clinton.mboloi@gmail.com</p>
         </div>
-      </section>
-      <!-- end of products section -->
-  
-      <!-- footer -->
-      <footer>
-        <div class = "footer-banner" id="contact">
-          <div class = "container">
-            
-            <p class = "text">Thank you for shopping with us! We appreciate your business and hope you enjoyed your experience on our eCommerce website. If you have any questions or feedback, please don't hesitate to contact our customer service team. We hope to see you again soon!</p><br>
-            <p>To order goods or report an issue contact us using the below information:</p>
-            <p>Tel no:0791168230</p>
-            <p>Email :clinton.mboloi@gmail.com</p>
-            
-          </div>
+      </div>
+
+      <div class="container">
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-pinterest"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
         </div>
-  
-        <div class = "container">
-          <div class = "social-icons">
-            <a href = "#">
-              <i class = "fab fa-facebook-f"></i>
-            </a>
-            <a href = "#">
-              <i class = "fab fa-twitter"></i>
-            </a>
-            <a href = "#">
-              <i class = "fab fa-instagram"></i>
-            </a>
-            <a href = "#">
-              <i class = "fab fa-pinterest"></i>
-            </a>
-            <a href = "#">
-              <i class = "fab fa-linkedin"></i>
-            </a>
-          </div>
-        
-        </div>
-      </footer>
-      <!-- end of footer -->
-      <script src="script.js"></script>
-    </body>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="script.js"></script>
+  </body>
 </html>

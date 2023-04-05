@@ -38,7 +38,7 @@ function updateCartInfo(){
 }
 // load product items content form JSON file
 function loadJSON(){
-    fetch('db.json')
+    fetch('https://stop-and-shop.onrender.com/items')
     .then(response => response.json())
     .then(data =>{
         let html = '';
