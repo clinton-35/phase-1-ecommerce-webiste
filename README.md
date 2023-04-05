@@ -1,5 +1,5 @@
 # phase-1-ecommerce-webiste
-# TITLE:Stop & Shop website.
+## TITLE:Stop & Shop website.
 
 
 ## Developer: CLINTON MBOLOI WAMBUA.
