@@ -1,4 +1,4 @@
-[
+{"items":[
     {
         "name" : "Armchair",
         "category" : "Chair",
@@ -258,5 +258,5 @@
       "imgSrc" : "images/yankeescap.png"
     }
     
-  ]
+  ]}
   
