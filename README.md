@@ -1,4 +1,4 @@
-# phase-1-ecommerce-webiste
+# phase-1-ecommerce-website
 ## TITLE:Stop & Shop website.
 
 
