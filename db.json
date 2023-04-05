@@ -130,6 +130,133 @@
       "category" : "shoes",
       "price" : "1500",
       "imgSrc" : "images/vans.png"
+    },
+    {
+        "name" : "Addidas Cap",
+        "category" : "caps",
+        "price" : "1000",
+        "imgSrc" : "images/addidascap.png"
+    },
+    {
+        "name" : "Moschino Belt",
+        "category" : "belt",
+        "price" : "2500",
+        "imgSrc" : "images/belt1.png"
+    },
+    {
+        "name" : "Designer Belt",
+        "category" : "belt",
+        "price" : "3000",
+        "imgSrc" : "images/belt2.png"
+    },
+    {
+        "name" : "Leather Belt",
+        "category" : "belt",
+        "price" : "1500",
+        "imgSrc" : "images/belt3.png"
+    },
+    {
+        "name" : "Cuban Hand Bracelet",
+        "category" : "chains",
+        "price" : "15000",
+        "imgSrc" : "images/cuban.png"
+    },
+    {
+        "name" : "Diamond Chain",
+        "category" : "chains",
+        "price" : "60000",
+        "imgSrc" : "images/diamondchain.png"
+    },
+    {
+        "name" : "Papua Diamond Necklace",
+        "category" : "chains",
+        "price" : "100000",
+        "imgSrc" : "images/g2diamond.png"
+    },
+    {
+        "name" : "Givenchy Diamond Necklace",
+        "category" : "chains",
+        "price" : "450000",
+        "imgSrc" : "images/g3diamond.png"
+    },
+    {
+        "name" : "Paris Diamond Necklace",
+        "category" : "chains",
+        "price" : "850000",
+        "imgSrc" : "images/gdiamond.png"
+    },
+    {
+        "name" : "Givenchy Shirt",
+        "category" : "clothes",
+        "price" : "1500",
+        "imgSrc" : "images/givenchyshirt.png"
+    },
+    {
+        "name" : "Givenchy Shirt",
+        "category" : "clothes",
+        "price" : "1500",
+        "imgSrc" : "images/givenchyshirt2.png"
+    },
+    {
+        "name" : "Louis Vuitton Heels",
+        "category" : "shoes",
+        "price" : "5000",
+        "imgSrc" : "images/heels.png"
+    },
+    {
+        "name" : "Prada Heels",
+        "category" : "shoes",
+        "price" : "5000",
+        "imgSrc" : "images/heels2.png"
+    },
+    {
+        "name" : "JPE smart TV",
+        "category" : "TV",
+        "price" : "45000",
+        "imgSrc" : "images/jpesmart.png"
+    },
+    {
+        "name" : "JVC Sound System",
+        "category" : "radio",
+        "price" : "20000",
+        "imgSrc" : "images/jvc.png"
+    },
+    {
+        "name" : "Thug Life Cap",
+        "category" : "caps",
+        "price" : "1000",
+        "imgSrc" : "images/thuglifecaps.png"
+    },
+    {
+        "name" : "Tommy Hilfiger",
+        "category" : "shoes",
+        "price" : "800",
+        "imgSrc" : "images/tommy.png"
+    },
+    {
+        "name" : "Truckfit Cap",
+        "category" : "caps",
+        "price" : "1500",
+        "imgSrc" : "images/truckfitcap.png"
+    },
+    {
+        "name" : "Ampex Sound System",
+        "category" : "radio",
+        "price" : "35000",
+        "imgSrc" : "images/woofer.png"
+    },
+    {
+        "name" : "x75K TV",
+        "category" : "TV",
+        "price" : "30000",
+        "imgSrc" : "images/x75k.png"
+    },
+    {
+      "name" : "Yankee Cap",
+      "category" : "caps",
+      "price" : "1500",
+      "imgSrc" : "images/yankeescap.png"
     }
+    
   ]
   
