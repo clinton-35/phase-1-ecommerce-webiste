@@ -41,3 +41,5 @@ If you find a bug or have a feature request, please open an issue. If you would 
 
 ### License
 This project is licensed under the MIT License. See the LICENSE file[clinton-35 LICENSE] for more information.
+
+('Copyright (c) 2014, Clinton Mboloi');
